@@ -76,6 +76,14 @@
 .fa.fa-pull-right {
   margin-left: .3em;
 }
+/* Added below for X icon */
+.fa.fa-twitter{
+	font-family:sans-serif;
+}
+.fa.fa-twitter::before{
+	content:"𝕏";
+	font-size:1.2em;
+}
 /* Deprecated as of 4.4.0 */
 .pull-right {
   float: right;
