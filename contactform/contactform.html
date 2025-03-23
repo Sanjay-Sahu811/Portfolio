@@ -56,7 +56,8 @@
 
     <div class="contact-form">
         <h2>Contact Me</h2>
-        <form id="contactForm" action="https://usebasin.com/f/14dc2921e681" method="POST">
+        <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="01b9a2bd-b23c-4268-81e5-7ef5c630a65e">
             <input type="hidden" name="_captcha" value="false">
             <input type="hidden" name="_template" value="box">
             <input type="text" name="name" id="name" placeholder="Your Name" required>
@@ -86,7 +87,7 @@
 
                 // Submit via FormSubmit (for email delivery)
                 $.ajax({
-                    url: "https://usebasin.com/f/14dc2921e681",
+                    url: "https://api.web3forms.com/submit",
                     method: "POST",
                     data: {
                         name: name,
