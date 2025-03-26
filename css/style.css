@@ -31,6 +31,12 @@
   background-color: #0056b3; /* Darker blue on hover */
 }
 
+.logo-img {
+  height: 50px; /* Adjust size as needed */
+  width: auto;
+  display: inline-block;
+}
+
 
 body {
   background-color: #f5f5f5;
