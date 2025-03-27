@@ -37,7 +37,7 @@
   <!--/ Nav Star /-->
   <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll" href="#page-top"><img src="img/logo.png" alt="Logo" class="logo-img"></a>      
+      <a class="navbar-brand js-scroll" href="#page-top"><img src="img/logo1.png" alt="Logo" class="logo-img"></a>      
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
         aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span></span>
@@ -163,109 +163,98 @@
   </section>
 
   <!--/ Section Certifications Star /-->
-  <section id="services" class="services-mf route">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="title-box text-center">
-            <h3 class="title-a">
-              Certifications
-            </h3>
-            <div class="line-mf"></div>
-          </div>
+  <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<section id="services" class="services-mf route">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="title-box text-center">
+          <h3 class="title-a">Certifications</h3>
+          <div class="line-mf"></div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <!-- <span class="ico-circle"><i class="ion-monitor"></i></span> -->
-              <span>
-                <img src="img/azure-data-engineer-associate.png" alt="Certification Badge" class="badge-img">
-              </span>              
+    </div>
+
+    <!-- Bootstrap Carousel -->
+    <div id="certificationsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+      <div class="carousel-inner">
+
+        <!-- Slide 1 (Active) -->
+        <div class="carousel-item active">
+          <div class="row text-center">
+            <div class="col-md-4">
+              <div class="service-box">
+                <img src="img/azure-data-engineer-associate.png" alt="Microsoft Data Engineer" class="badge-img">
+                <h2 class="s-title">Microsoft Certified Data Engineer Associate</h2>
+                <a href="https://learn.microsoft.com/api/credentials/share/en-us/SanjayKumarSahu-9936/78E8DAD79FF0C207?sharingId" target="_blank" class="btn-credential">Credential</a>
+              </div>
             </div>
-            <div class="service-content">
-              <h2 class="s-title">Microsoft Certified Data Engineer Associate</h2>
-              <p class="s-description text-center">
-              <a href="https://learn.microsoft.com/api/credentials/share/en-us/SanjayKumarSahu-9936/78E8DAD79FF0C207?sharingId" target="_blank" class="btn-credential">Credential</a>
-              </p>
+
+            <div class="col-md-4">
+              <div class="service-box">
+                <img src="img/associate-badge-de.png" alt="Databricks Associate" class="badge-img">
+                <h2 class="s-title">Databricks Certified Data Engineer Associate</h2>
+                <a href="https://credentials.databricks.com/54ad4076-a935-4db6-8bd1-b9659d67a103" target="_blank" class="btn-credential">Credential</a>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span>
-                 <img src="img/associate-badge-de.png" alt="Certification Badge" class="badge-img">
-              </span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">Databricks Certified Data Engineer Associate</h2>
-              <p class="s-description text-center">
-              <a href="https://credentials.databricks.com/54ad4076-a935-4db6-8bd1-b9659d67a103" target="_blank" class="btn-credential">Credential</a>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span>
-                <img src="img/professional-badge-de.png" alt="Certification Badge" class="badge-img">
-              </span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">Databricks Certified Data Engineer Professional</h2>
-              <p class="s-description text-center">
-              <a href="https://credentials.databricks.com/df10762f-66cd-4cb7-9ae4-cdc2a970229b#acc.s7Y9Lkx5" target="_blank" class="btn-credential">Credential</a>
-              </p>
+
+            <div class="col-md-4">
+              <div class="service-box">
+                <img src="img/professional-badge-de.png" alt="Databricks Professional" class="badge-img">
+                <h2 class="s-title">Databricks Certified Data Engineer Professional</h2>
+                <a href="https://credentials.databricks.com/df10762f-66cd-4cb7-9ae4-cdc2a970229b" target="_blank" class="btn-credential">Credential</a>
+              </div>
             </div>
           </div>
         </div>
-        <!-- <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-android-phone-portrait"></i></span>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <div class="row text-center">
+            <div class="col-md-4">
+              <div class="service-box">
+                <img src="img/aws-certified.png" alt="AWS Certified" class="badge-img">
+                <h2 class="s-title">AWS Certified Data Analytics</h2>
+                <a href="https://aws.amazon.com/certification/certified-data-analytics-specialty/" target="_blank" class="btn-credential">Credential</a>
+              </div>
             </div>
-            <div class="service-content">
-              <h2 class="s-title">Responsive Design</h2>
-              <p class="s-description text-center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                provident vitae! Magni
-                tempora perferendis eum non provident.
-              </p>
+
+            <div class="col-md-4">
+              <div class="service-box">
+                <img src="img/gcp-data-engineer.png" alt="GCP Data Engineer" class="badge-img">
+                <h2 class="s-title">Google Cloud Professional Data Engineer</h2>
+                <a href="https://cloud.google.com/certification/data-engineer" target="_blank" class="btn-credential">Credential</a>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="service-box">
+                <img src="img/snowflake-cert.png" alt="Snowflake Certified" class="badge-img">
+                <h2 class="s-title">Snowflake SnowPro Core Certified</h2>
+                <a href="https://www.snowflake.com/certifications/snowpro-core-certification/" target="_blank" class="btn-credential">Credential</a>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-paintbrush"></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">Graphic Design</h2>
-              <p class="s-description text-center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                provident vitae! Magni
-                tempora perferendis eum non provident.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-stats-bars"></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">Marketing Services</h2>
-              <p class="s-description text-center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                provident vitae! Magni
-                tempora perferendis eum non provident.
-              </p>
-            </div>
-          </div> -->
+
+      </div>
+
+      <!-- Carousel Controls -->
+      <a class="carousel-control-prev" href="#certificationsCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </a>
+      <a class="carousel-control-next" href="#certificationsCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- Bootstrap JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
         </div>
       </div>
     </div>
