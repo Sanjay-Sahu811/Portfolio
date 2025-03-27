@@ -9,6 +9,30 @@
 //--//-->   STYLES GENERALES
 ======================================*/
 
+.carousel-control-prev,
+.carousel-control-next {
+  width: auto; /* Allows flexibility */
+  opacity: 1; /* Ensure visibility */
+  top: 50%; /* Center align vertically */
+  transform: translateY(-50%); /* Adjust for perfect centering */
+}
+
+.carousel-control-prev {
+  left: -50px; /* Moves left arrow outside */
+}
+
+.carousel-control-next {
+  right: -50px; /* Moves right arrow outside */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5); /* Adds a dark background */
+  border-radius: 50%; /* Makes it rounded */
+  padding: 15px; /* Adjust size for better visibility */
+}
+
+
 .service-box {
   padding: 15px;
   border-radius: 10px;
