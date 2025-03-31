@@ -270,24 +270,55 @@
   <!--/ Section Portfolio Star /-->
   <section id="work" class="portfolio-mf sect-pt4 route">
     <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="title-box text-center">
-            <h3 class="title-a">
-              Work
-            </h3>
-            <p class="subtitle-a">
-              <!-- Capstone Projects -->
-            </p>
-            <div class="line-mf"></div>
-          </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="title-box text-center">
+                    <h3 class="title-a">Work</h3>
+                    <div class="line-mf"></div>
+                </div>
+            </div>
         </div>
-      </div>
+
+        <!-- Bootstrap Carousel for Capstone Projects -->
+        <div id="workCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2500">
+            <div class="carousel-inner">
+                <!-- First Project (Active) -->
+                <div class="carousel-item active">
+                    <div class="row align-items-center justify-content-center">
+                        <div class="col-md-8 text-center">
+                            <img src="img/ipl-data-analysis.png" alt="IPL Data Analysis" class="img-fluid rounded shadow-lg" style="max-width: 70%; transform: scale(1.05);">
+                            <!-- <h4 class="mt-4">IPL Data Analysis Using Databricks</h4> -->
+                            <p class="mt-3">Analyzing IPL data using PySpark in Databricks, finding key insights like top wicket-takers, team performance, and match statistics.</p>
+                            <a href="https://github.com/Sanjay-Sahu811/IPL-Data-Analysis" target="_blank" class="btn btn-primary mt-2">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Second Project -->
+                <!-- <div class="carousel-item">
+                    <div class="row align-items-center justify-content-center">
+                        <div class="col-md-8 text-center">
+                            <img src="img/project-2.png" alt="Project 2" class="img-fluid rounded shadow-lg" style="max-width: 70%; transform: scale(1.05);">
+                            <h4 class="mt-4">Project Title 2</h4>
+                            <p class="mt-3">Brief description of the second project showcasing data engineering techniques and cloud-based solutions.</p>
+                            <a href="https://github.com/your-repo-link" target="_blank" class="btn btn-primary mt-2">View Project</a>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+
+            <!-- Carousel Controls
+            <a class="carousel-control-prev" href="#workCarousel" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-dark rounded-circle p-3" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#workCarousel" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-dark rounded-circle p-3" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a> -->
+        </div>
     </div>
-  </section>
-    </div>
-  </section>
-  <!--/ Section Blog End /-->
+</section>
 
   <!--/ Section Contact-Footer Star /-->
   <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/intro-de-bg.jpg)">
