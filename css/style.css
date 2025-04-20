@@ -468,8 +468,8 @@ a:hover {
 .navbar-b {
   transition: all .5s ease-in-out;
   background-color: transparent;
-  padding-top: 1.563rem;
-  padding-bottom: 1.563rem;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
 }
 
 .navbar-b.navbar-reduce {
@@ -746,7 +746,7 @@ a:hover {
 }
 
 .about-mf .about-img img {
-  margin-left: 10px;
+  margin-left: 150px;
 }
 
 .skill-mf span {
